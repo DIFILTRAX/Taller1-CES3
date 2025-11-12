@@ -35,15 +35,15 @@ Permite al cliente ver cómo los servidores intermedios manejan o modifican la s
 #1. Listado de métodos HTTP (GET, POST, PUT, DELETE, PATCH, OPTIONS, HEAD, CONNECT, TRACE, etc.).
 | Método      | Descripción                                                   | ¿Modifica recursos? | Idempotente* | Seguro** |
 | ----------- | ------------------------------------------------------------- | ------------------- | ------------ | -------- |
-| **GET**     | Obtiene datos de un recurso.                                  | ❌                   | ✅            | ✅        |
-| **POST**    | Envía datos para crear o procesar información en el servidor. | ✅                   | ❌            | ❌        |
-| **PUT**     | Actualiza un recurso existente reemplazándolo completamente.  | ✅                   | ✅            | ❌        |
-| **PATCH**   | Actualiza parcialmente un recurso (solo algunos campos).      | ✅                   | ❌            | ❌        |
-| **DELETE**  | Elimina un recurso.                                           | ✅                   | ✅            | ❌        |
-| **HEAD**    | Igual que GET pero solo devuelve cabeceras, sin cuerpo.       | ❌                   | ✅            | ✅        |
-| **OPTIONS** | Consulta qué métodos están disponibles para un recurso.       | ❌                   | ✅            | ✅        |
-| **CONNECT** | Establece un túnel para comunicación segura (HTTPS).          | ❓                   | ❓            | ❌        |
-| **TRACE**   | Devuelve la petición tal cual llegó al servidor (debug).      | ❌                   | ✅            | ✅        |
+| **GET**     | Obtiene datos de un recurso.                                  |No cumple                   |Cumple          |Cumple      |
+| **POST**    | Envía datos para crear o procesar información en el servidor. |Cumple                 |No cumple            |No cumple        |
+| **PUT**     | Actualiza un recurso existente reemplazándolo completamente.  |Cumple                 |Cumple          |No cumple        |
+| **PATCH**   | Actualiza parcialmente un recurso (solo algunos campos).      |Cumple                 |No cumple            |No cumple        |
+| **DELETE**  | Elimina un recurso.                                           |Cumple                 |Cumple          |No cumple        |
+| **HEAD**    | Igual que GET pero solo devuelve cabeceras, sin cuerpo.       |No cumple                   |Cumple          |Cumple      |
+| **OPTIONS** | Consulta qué métodos están disponibles para un recurso.       |No cumple                   |Cumple          |Cumple      |
+| **CONNECT** | Establece un túnel para comunicación segura (HTTPS).          |No aplica                  |No aplica           |No cumple        |
+| **TRACE**   | Devuelve la petición tal cual llegó al servidor (debug).      |No cumple                   |Cumple          |Cumple      |
 
 
 
