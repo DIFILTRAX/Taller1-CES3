@@ -1,7 +1,7 @@
 # Taller1-CES3
 Actividad 1 – Taller Evaluativo: Métodos HTTP
 
-# ¿Qué es HTTP y cómo se relaciona con REST?
+# ¿Qué es HTTP ?
 HTTP, que significa Protocolo de transferencia de hipertexto, es el protocolo dominante para transmitir datos —como páginas HTML, imágenes y vídeos— entre clientes y servidores en Internet. Opera según un modelo de solicitud-respuesta, en el que el cliente envía una solicitud al servidor y el servidor responde con los datos solicitados o un mensaje de error. HTTP no tiene estado, lo que significa que el servidor maneja cada solicitud de forma independiente —sin ningún conocimiento de solicitudes anteriores.
 
 # Métodos HTTP Comunes
