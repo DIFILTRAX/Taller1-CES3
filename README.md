@@ -123,8 +123,9 @@ Accept: application/json
 
 ```
 [
-  { "id": 1, "nombre": "Teclado", "precio": 50 },
-  { "id": 2, "nombre": "Mouse", "precio": 30 }
+  { "id": 1, "nombre": "Lapiz", "precio": 150 },
+  { "id": 2, "nombre": "Borrador", "precio": 130 }
+ { "id": 3, "nombre": "Sacapuntas", "precio": 140 }
 ]
 ```
 
